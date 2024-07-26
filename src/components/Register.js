@@ -25,6 +25,8 @@ const Register = () => {
     e.preventDefault();
   };
 
+  // Define input statements
+
   return (
     <>
       <section className="heading">

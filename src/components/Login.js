@@ -18,6 +18,9 @@ const Login = () => {
   const onSubmit = (e) => {
     e.preventDefault();
   };
+
+  // Define input statements
+  
   return (
     <>
       <section className="heading">
