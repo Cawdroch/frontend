@@ -6,7 +6,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Header from "./components/Header";
 
-// App function //
+// Create App function 
 
 function App() {
   return (
@@ -22,5 +22,7 @@ function App() {
     </Router>
   );
 }
+
+// Export default module
 
 export default App;

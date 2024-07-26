@@ -1,5 +1,9 @@
+// Import modules
+
 import { FaSignInAlt, FaSignOutAlt, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+// Create header component
 
 const Header = () => {
   return (
@@ -9,18 +13,20 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <Link to="/login>">
-            <FaSignInAlt /> Login
+          <Link to="/login">
+            <FaSignInAlt />Login
           </Link>
         </li>
         <li>
           <Link to="/register">
-            <FaUser /> Register
+            <FaUser />Register
           </Link>
         </li>
       </ul>
     </header>
   );
 };
+
+// Export default component module
 
 export default Header;
