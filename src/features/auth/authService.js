@@ -3,7 +3,7 @@
 
 import userEvent from "@testing-library/user-event";
 import axios from "axios";
-const API_URL = "/api/users/";
+const API_URL = "https://taskmernbackend-o5vb8m0j.b4a.run/api/users/";
 
 const register = async (userData) => {
   const response = await axios.post(API_URL, userData);

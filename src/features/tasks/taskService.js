@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const API_URL = "/api/tasks/";
+const API_URL = "https://taskmernbackend-o5vb8m0j.b4a.run/api/tasks/";
 
 const createTask = async (taskData, token) => {
   const config = {
