@@ -1,3 +1,5 @@
+/* eslint- disable no-unused-vars */
+
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import taskService from "./taskService";
 import { FaLessThanEqual } from "react-icons/fa";

@@ -1,3 +1,6 @@
+/* eslint- disable no-unused-vars */
+
+
 import userEvent from "@testing-library/user-event";
 import axios from "axios";
 const API_URL = "/api/users/";

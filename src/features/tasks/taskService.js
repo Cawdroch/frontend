@@ -1,3 +1,5 @@
+/* eslint- disable no-unused-vars */
+
 import axios from "axios";
 
 const API_URL = "/api/tasks/";
