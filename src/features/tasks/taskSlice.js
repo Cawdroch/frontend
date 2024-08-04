@@ -1,4 +1,4 @@
-/* eslint- disable no-unused-vars */
+/* eslint-disable no-unused-vars */
 
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import taskService from "./taskService";
